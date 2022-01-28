@@ -1,0 +1,6 @@
+2022/01/28-23:07:14.172 15d9c Creating DB /home/ahmed/Desktop/Web/employee/[some directory here]/Default/IndexedDB/https_www.positronx.io_0.indexeddb.leveldb since it was missing.
+2022/01/28-23:07:14.184 15d9c Reusing MANIFEST /home/ahmed/Desktop/Web/employee/[some directory here]/Default/IndexedDB/https_www.positronx.io_0.indexeddb.leveldb/MANIFEST-000001
+2022/01/28-23:07:16.045 15d9c Level-0 table #5: started
+2022/01/28-23:07:16.047 15d9c Level-0 table #5: 576 bytes OK
+2022/01/28-23:07:16.049 15d9c Delete type=0 #3
+2022/01/28-23:07:16.050 15d9c Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

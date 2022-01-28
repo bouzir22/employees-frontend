@@ -1,0 +1,11 @@
+2022/01/28-22:20:37.717 3 Creating DB /home/ahmed/Desktop/Web/employee/[some directory here]/Default/Local Storage/leveldb since it was missing.
+2022/01/28-22:20:37.732 3 Reusing MANIFEST /home/ahmed/Desktop/Web/employee/[some directory here]/Default/Local Storage/leveldb/MANIFEST-000001
+2022/01/28-22:39:32.612 9 Level-0 table #5: started
+2022/01/28-22:39:32.616 9 Level-0 table #5: 39135 bytes OK
+2022/01/28-22:39:32.618 9 Delete type=0 #3
+2022/01/28-22:39:42.211 9 Level-0 table #7: started
+2022/01/28-22:39:42.215 9 Level-0 table #7: 72530 bytes OK
+2022/01/28-22:39:42.218 9 Delete type=0 #4
+2022/01/28-23:08:16.096 9 Level-0 table #9: started
+2022/01/28-23:08:16.103 9 Level-0 table #9: 85527 bytes OK
+2022/01/28-23:08:16.116 9 Delete type=0 #6

@@ -1,0 +1,71 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+<div class="container">
+	<div class="row">
+	    
+	    
+<link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" media="screen">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+
+
+<!-- FORM  -->	    
+
+	    
+
+
+
+<!-- LIST -->
+<div class=col-md-12>
+    
+    <form id="form-list-client">
+            <legend>List of clients</legend>
+    
+    <div class="pull-right">
+        <a class="btn btn-default-btn-xs btn-primary"><i class="glyphicon glyphicon-refresh"></i> Refresh</a>
+        <a href="add" class="btn btn-default-btn-xs btn-success"><i class="glyphicon glyphicon-plus"></i> New</a>
+    </div>
+    <table class="table table-bordered table-condensed table-hover">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <th>Email</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+                
+        </thead>
+        <tbody id="form-list-client-body">
+            <tr *ngFor="let emp of employees">
+                <td>{{emp.username}}</td>
+                <td>{{emp.email}}</td>
+                <td>{{emp.department.name}}</td>
+                <td>
+                   
+                    <a href="edit/{{emp.idUser}}" title="edit this user" class="btn btn-default btn-sm "> <i class="glyphicon glyphicon-edit text-primary"></i> </a>
+                    <a href="delete/{{emp.idUser}}" title="delete this user" class="btn btn-default btn-sm "> <i class="glyphicon glyphicon-trash text-danger"></i> </a>
+                    
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </form>
+
+    
+</div>
+
+
+<br> 
+
+<!-- view -->
+
+
+	    
+	    
+	</div>
+</div>
